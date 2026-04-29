@@ -1,0 +1,13 @@
+# render.yaml — Deploy Weather App on Render.com
+
+services:
+  - type: web
+    name: weather-forecast-ashiba
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: OPENWEATHER_API_KEY
+        sync: false
