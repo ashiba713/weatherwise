@@ -47,6 +47,11 @@ npm run dev
 ```
 
 Open: http://localhost:4000
+## Screenshots
+
+![weatherwise](img1.png)
+![weatherwise](img2.png)
+![weatherwise](img3.png)
 
 ---
 Built by **Ashiba Alben A** · Kanyakumari, Tamil Nadu
